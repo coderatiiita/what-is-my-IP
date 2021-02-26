@@ -1,0 +1,65 @@
+/* header CSS */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    margin: auto;
+    top: 0;
+    box-shadow: 1px 2px 2px rgb(0 0 0 / 10%), -1px -1px 2px rgb(0 0 0 / 8%);
+    align-items: center;
+    line-height: 45px;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: burlywood;
+}
+
+/* main CSS */
+
+main {
+    position: relative;
+}
+
+.main-content {position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    height: 220px;
+    width: 30%;
+    border: 1px solid wheat;
+    background-color: #c5866f;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgb(97 97 97);
+    margin: auto;
+    /*margin-top: 210px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text] {
+    box-shadow: 0 1px 5px rgb(97 97 97);
+    background-color: #e1bb80;
+    color: rgb(1, 54, 70);
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid wheat;
+    height: 50px;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    text-align: center;
+}
+
+/* footer CSS */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 3.5rem;
+    text-align: center;
+    background-color: burlywood;
+    font-size: 17px;
+}
