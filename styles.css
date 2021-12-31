@@ -1,3 +1,7 @@
+body {
+    margin: 0
+}
+
 /* header CSS */
 header {
     display: flex;
@@ -15,8 +19,14 @@ header {
 
 /* main CSS */
 
-main {
+.outer {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 .main-content {position: absolute;
@@ -57,7 +67,7 @@ input[type=text] {
 .footer {
     position: absolute;
     bottom: 0;
-    width: 99%;
+    width: 100%;
     height: 3.5rem;
     text-align: center;
     background-color: burlywood;
