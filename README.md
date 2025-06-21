@@ -1,6 +1,6 @@
 # whatismyIP
 
-A tiny web page that tells you your public IP address.
+A static web page that tells you your public IP address.
 
 ## Features
 
