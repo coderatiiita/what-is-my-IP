@@ -16,6 +16,11 @@ header {
     text-decoration: none;
     font-size: 18px;
     background-color: burlywood;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin: 0;
 }
 
 /* main CSS */
@@ -77,6 +82,11 @@ input[type=text] {
     font-weight: bold;
     cursor: pointer;
     box-shadow: 0 1px 5px rgb(97 97 97);
+    transition: background-color 0.3s;
+}
+
+#copy-ip.copied {
+    background-color: #aedaa6;
 }
 
 #copy-ip:disabled {
