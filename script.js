@@ -16,6 +16,13 @@ copyBtn.addEventListener('click', () => {
     navigator.clipboard.writeText(ipInput.value).catch(() => {
         /* ignore copy errors */
     });
+    copyBtn.classList.add('copied');
+    const previous = copyBtn.textContent;
+    copyBtn.textContent = 'Copied!';
+    setTimeout(() => {
+        copyBtn.classList.remove('copied');
+        copyBtn.textContent = previous;
+    }, 1000);
 });
 
 fetch('https://ipapi.co/json')
