@@ -5,16 +5,22 @@ body {
 /* header CSS */
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     position: sticky;
-    margin: auto;
     top: 0;
+    margin: 0;
+    width: 100%;
     box-shadow: 1px 2px 2px rgb(0 0 0 / 10%), -1px -1px 2px rgb(0 0 0 / 8%);
     align-items: center;
     line-height: 45px;
     text-decoration: none;
     font-size: 18px;
     background-color: burlywood;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin: 0;
 }
 
 /* main CSS */
@@ -76,6 +82,11 @@ input[type=text] {
     font-weight: bold;
     cursor: pointer;
     box-shadow: 0 1px 5px rgb(97 97 97);
+    transition: background-color 0.3s;
+}
+
+#copy-ip.copied {
+    background-color: #aedaa6;
 }
 
 #copy-ip:disabled {
